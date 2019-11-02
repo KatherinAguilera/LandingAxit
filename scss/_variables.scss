@@ -1,0 +1,43 @@
+$withoutmargin: 0;
+
+// $widthCont: 200px;
+// $LongHeigth: 300px;
+// $paddingLeft: 60px;
+
+
+%displayflex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+%coverhero{
+  max-width: 100%;
+  width: 100%;
+}
+%h2style{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+
+%grid3columns{
+  display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, 310px);
+  grid-auto-flow: dense;
+  margin-top:50px;
+  padding-bottom: 50px;
+}
+%pricingli{
+  background: #333333;
+  padding: 8px 2px;
+  border-bottom: 1px solid white;
+}
+%buttondownload{
+  outline: 0;
+  border: 2px solid white;
+  background: transparent;
+  padding: 8px 9px;
+  color: white;
+  cursor: pointer;
+}

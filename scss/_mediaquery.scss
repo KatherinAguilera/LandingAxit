@@ -1,0 +1,75 @@
+@media screen and (max-width:968px) {
+  .hero_info {
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  .hero_info{
+    margin-left: 30px;
+  }
+  .hero_cover-figure  {
+    display: none;
+  }
+  h1{
+    font-size:28px;
+  }
+}
+@media screen and (max-width:610px) {
+  .header{
+    height: 60px;
+  }
+  .hero_info {
+    margin-left: 20px;
+        bottom: 50px;
+  }
+  .hero_p {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .hero_button-download{
+    margin-top:10px;
+  }
+  .hero_button{
+    width: 100%;
+    outline: 0;
+    border: 2px solid white;
+    background: transparent;
+    padding: 8px 9px;
+    color: white;
+    cursor: pointer;
+  }
+  .header_menu{
+    display: block;
+  }
+  .header_mobile {
+    display: block;
+  }
+  .header_menu.active1 {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header_menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:360px) {
+  h1{
+    font-size:18px;
+  }
+  h2,
+  .pricing_h2,
+  .cover_h2 {
+    font-size: 16px;
+  }
+  .pricing_options-basic,
+  .pricing_options-profesional
+  {
+    padding-left:0 ;
+  }
+  .cover_button {
+    margin-top: 0;
+  }
+}
